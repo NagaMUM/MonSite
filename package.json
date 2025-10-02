@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  },
+  "name": "cours-bootstrap-5-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
