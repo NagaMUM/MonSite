@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,41 +14,42 @@
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
+
 <body>
 
   <!-- ====== HEADER / NAVBAR ====== -->
   <header>
-  <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top py-3 shadow-sm">
-    <div class="container">
-      <!-- Logo / marque -->
-      <a class="navbar-brand text-uppercase fw-bold" href="#presentation">
-        <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Naga</span> MUMMASANI
-      </a>
-      <!-- Bouton toggle pour mobile -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Liens de navigation -->
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#presentation">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#competences">Compétences</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#hobbies">Mes Hobbies & Passions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top py-3 shadow-sm">
+      <div class="container">
+        <!-- Logo / marque -->
+        <a class="navbar-brand text-uppercase fw-bold" href="#presentation">
+          <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Naga</span> MUMMASANI
+        </a>
+        <!-- Bouton toggle pour mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Liens de navigation -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#presentation">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#competences">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hobbies">Mes Hobbies & Passions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
 
   <!-- ====== SECTION 1 : PRÉSENTATION ====== -->
@@ -60,406 +62,453 @@
           <button class="btn btn-light btn-lg mt-3">Mon expertise Web</button>
         </div>
         <div class="col-12 col-md-6 text-center">
-            <img src="img/portait.jpg" alt="Portrait Naga" class="img-fluid rounded shadow">
+          <img src="img/portait.jpg" alt="Portrait Naga" class="img-fluid rounded shadow">
         </div>
       </div>
     </div>
   </section>
 
   <!-- ====== SECTION 2 : COMPÉTENCES AVEC PROGRESS BARS ====== -->
-<section id="competences" class="py-5" style="background-color: #f0f8ff;">
-  <div class="container">
-    <h2 class="mb-5 text-center fw-bold fs-3 fs-md-2">Mes compétences techniques</h2>
-    <div class="row g-4">
-
-      <!-- Administration Réseaux -->
-      <div class="col-12 col-md-4">
-        <div class="p-4 bg-info bg-opacity-25 text-dark rounded h-100">
-          <h5 class="fw-bold mb-3 text-center">Administration Réseaux</h5>
-          <div class="mb-3">
-            <i class="bi bi-hdd-network me-2"></i> LAN/WAN
-            <div class="progress">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="mb-3">
-            <i class="bi bi-server me-2"></i> Serveurs & OS
-            <div class="progress">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="mb-3">
-            <i class="bi bi-graph-up me-2"></i> Supervision
-            <div class="progress">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Programmation -->
-      <div class="col-12 col-md-4">
-        <div class="p-4 bg-success bg-opacity-25 text-dark rounded h-100">
-          <h5 class="fw-bold mb-3 text-center">Programmation</h5>
-          <div class="mb-3">
-            <i class="fab fa-python me-2"></i> Python
-            <div class="progress">
-              <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="mb-3">
-            <i class="fab fa-js-square me-2"></i> JavaScript / Node.js
-            <div class="progress">
-              <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="mb-3">
-            <i class="fab fa-java me-2"></i> Java / C++
-            <div class="progress">
-              <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="mb-3">
-            <i class="bi bi-database me-2"></i> Bases de données
-            <div class="progress">
-              <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CyberSécurité -->
-      <div class="col-12 col-md-4">
-        <div class="p-4 bg-warning bg-opacity-25 text-dark rounded h-100">
-          <h5 class="fw-bold mb-3 text-center">CyberSécurité</h5>
-          <div class="mb-3">
-            <i class="bi bi-shield-lock me-2"></i> Pentest & Crypto
-            <div class="progress">
-              <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="mb-3">
-            <i class="bi bi-shield-fill-exclamation me-2"></i> Analyse vulnérabilités
-            <div class="progress">
-              <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="mb-3">
-            <i class="bi bi-shield-check me-2"></i> Sécurisation infra
-            <div class="progress">
-              <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-               
-<!-- ====== SECTION 3 : HOBBIES & PASSIONS INTERACTIFS ====== -->
-<section id="hobbies" class="py-5 bg-warning bg-opacity-25">
+  <section id="competences" class="py-5" style="background-color: #f0f8ff;">
     <div class="container">
-        <h2 class="mb-4 text-center fw-bold fs-3">Mes Hobbies & Passions</h2>
-        <div class="row g-4">
+      <h2 class="mb-5 text-center fw-bold fs-3 fs-md-2">Mes compétences techniques</h2>
+      <div class="row g-4">
 
-            <!-- Volleyball -->
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="card h-100 shadow-sm">
-                    <img src="img/volleyball1.png" class="card-img-top hobby-img" alt="Volleyball">
-                    <div class="card-body">
-                        <h5 class="card-title">Volleyball</h5>
-                        <p class="card-text">Sport collectif que je pratique pour le plaisir.</p>
-                        <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#hobbyVolley">En savoir plus</a>
-                    </div>
-                </div>
+        <!-- Administration Réseaux -->
+        <div class="col-12 col-md-4">
+          <div class="p-4 bg-info bg-opacity-25 text-dark rounded h-100">
+            <h5 class="fw-bold mb-3 text-center">Administration Réseaux</h5>
+            <div class="mb-3">
+              <i class="bi bi-hdd-network me-2"></i> LAN/WAN
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="hobbyVolley">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title">Volleyball</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div id="carouselVolley" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/volleyball1.png" class="d-block w-100 carousel-img" alt="Match">
-                                <div class="carousel-caption"><h5>Match</h5><p>Participation à des tournois.</p></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/volleyball2.png" class="d-block w-100 carousel-img" alt="Entraînement">
-                                <div class="carousel-caption"><h5>Entraînement</h5><p>Pratique régulière en club.</p></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/volleyball3.jpeg" class="d-block w-100 carousel-img" alt="Équipe">
-                                <div class="carousel-caption"><h5>Équipe</h5><p>Moment d’équipe et tournoi interne.</p></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/volleyball4.jpg" class="d-block w-100 carousel-img" alt="Tournoi">
-                                <div class="carousel-caption"><h5>Tournoi</h5><p>Tournoi interne et convivialité.</p></div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselVolley" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselVolley" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                </div>
+            <div class="mb-3">
+              <i class="bi bi-server me-2"></i> Serveurs & OS
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 85%" aria-valuenow="85"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
-
-            <!-- Jeux Vidéo -->
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="card h-100 shadow-sm">
-                    <img src="img/jeuxvideo1.jpg" class="card-img-top hobby-img" alt="Jeux Vidéo">
-                    <div class="card-body">
-                        <h5 class="card-title">Jeux Vidéo</h5>
-                        <p class="card-text">Un univers virtuel qui stimule ma créativité.</p>
-                        <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#hobbyJeux">En savoir plus</a>
-                    </div>
-                </div>
+            <div class="mb-3">
+              <i class="bi bi-graph-up me-2"></i> Supervision
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="hobbyJeux">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title">Jeux Vidéo</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div id="carouselJeux" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/jeuxvideo1.jpg" class="d-block w-100 carousel-img" alt="Action">
-                                <div class="carousel-caption"><h5>Action</h5></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/jeuxvideo2.jpg" class="d-block w-100 carousel-img" alt="Stratégie">
-                                <div class="carousel-caption"><h5>Stratégie</h5></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/jeuxvideo3.jpg" class="d-block w-100 carousel-img" alt="Multijoueur">
-                                <div class="carousel-caption"><h5>Multijoueur</h5></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/jeuxvideo4.jpg" class="d-block w-100 carousel-img" alt="Compétition">
-                                <div class="carousel-caption"><h5>Compétition</h5></div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselJeux" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselJeux" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Musique -->
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="card h-100 shadow-sm">
-                    <img src="img/musique1.jpg" class="card-img-top hobby-img" alt="Musique">
-                    <div class="card-body">
-                        <h5 class="card-title">Musique</h5>
-                        <p class="card-text">Fan du groupe Imagine Dragons 🎶</p>
-                        <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#hobbyMusique">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="hobbyMusique">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title">Musique</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div id="carouselMusique" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/musique1.jpg" class="d-block w-100 carousel-img" alt="Concert">
-                                <div class="carousel-caption"><h5>Concert</h5></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/musique2.jpg" class="d-block w-100 carousel-img" alt="Studio">
-                                <div class="carousel-caption"><h5>Studio</h5></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/musique3.jpg" class="d-block w-100 carousel-img" alt="Écoute">
-                                <div class="carousel-caption"><h5>Écoute</h5></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/musique4.jpg" class="d-block w-100 carousel-img" alt="Répétition">
-                                <div class="carousel-caption"><h5>Répétition</h5></div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMusique" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMusique" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Marvel -->
-            <div class="col-12 col-sm-6 col-md-3">
-                <div class="card h-100 shadow-sm">
-                    <img src="img/marvel1.png" class="card-img-top hobby-img" alt="Marvel">
-                    <div class="card-body">
-                        <h5 class="card-title">Marvel</h5>
-                        <p class="card-text">Univers cinématographique que j’adore.</p>
-                        <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#hobbyMarvel">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="hobbyMarvel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title">Marvel</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div id="carouselMarvel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/marvel1.png" class="d-block w-100 carousel-img" alt="Iron Man">
-                                <div class="carousel-caption"><h5>Iron Man</h5></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/marvel2.jpg" class="d-block w-100 carousel-img" alt="Avengers">
-                                <div class="carousel-caption"><h5>Avengers</h5></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/marvel3.jpg" class="d-block w-100 carousel-img" alt="Thor">
-                                <div class="carousel-caption"><h5>Thor</h5></div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/marvel4.jpg" class="d-block w-100 carousel-img" alt="Hulk">
-                                <div class="carousel-caption"><h5>Hulk</h5></div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMarvel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMarvel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-
-
-<!-- ====== SECTION 4 : CONTACT ====== -->
-<section id="contact" class="py-5 bg-light">
-    <div class="container">
-        <h2 class="mb-0">Un projet de création web ?</h2>
-        <h3 class="fw-light fs-5">Allons en discuter autour d'un café</h3>
-
-        <div class="row gy-4 mt-4">
-          <!-- Image de la tasse de café -->
-          <div class="col-12 col-md-5 text-center">
-              <img src="img/grab-a-coffee.jpg" alt="Image d'une tasse de café" class="img-fluid rounded shadow-sm">
           </div>
-
-            <!-- Formulaire de contact -->
-            <div class="col-12 offset-md-1 col-md-6">
-                <form class="row">
-                    <div class="col-6 my-2">
-                        <label for="firstname" class="form-label">Prénom</label>
-                        <input name="firstname" type="text" class="form-control" id="firstname">
-                    </div>
-                    <div class="col-6 my-2">
-                        <label for="name" class="form-label">Nom</label>
-                        <input name="name" type="text" class="form-control" id="name">
-                    </div>
-                    <div class="col-12 my-2">
-                        <label for="email" class="form-label">Email address</label>
-                        <input name="email" type="email" class="form-control" id="email">
-                    </div>
-                    <div class="col-12 my-2">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea name="message" class="form-control" id="message" rows="3"></textarea>
-                    </div>
-                    <div class="col-12 my-2">
-                        <button type="submit" class="btn btn-primary w-100">Envoyer</button>
-                    </div>
-                </form>
-            </div>
         </div>
+
+        <!-- Programmation -->
+        <div class="col-12 col-md-4">
+          <div class="p-4 bg-success bg-opacity-25 text-dark rounded h-100">
+            <h5 class="fw-bold mb-3 text-center">Programmation</h5>
+            <div class="mb-3">
+              <i class="fab fa-python me-2"></i> Python
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <i class="fab fa-js-square me-2"></i> JavaScript / Node.js
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <i class="fab fa-java me-2"></i> Java / C++
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <i class="bi bi-database me-2"></i> Bases de données
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CyberSécurité -->
+        <div class="col-12 col-md-4">
+          <div class="p-4 bg-warning bg-opacity-25 text-dark rounded h-100">
+            <h5 class="fw-bold mb-3 text-center">CyberSécurité</h5>
+            <div class="mb-3">
+              <i class="bi bi-shield-lock me-2"></i> Pentest & Crypto
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <i class="bi bi-shield-fill-exclamation me-2"></i> Analyse vulnérabilités
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <i class="bi bi-shield-check me-2"></i> Sécurisation infra
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-</section>
+  </section>
 
+  <!-- ====== SECTION 3 : HOBBIES & PASSIONS INTERACTIFS ====== -->
+  <section id="hobbies" class="py-5 bg-warning bg-opacity-25">
+    <div class="container">
+      <h2 class="mb-4 text-center fw-bold fs-3">Mes Hobbies & Passions</h2>
+      <div class="row g-4">
 
-    <!-- Lien Mentions légales -->
-<footer class="text-center py-4 bg-dark text-light">
-  <p>
-    © 2025 Mon Portfolio - 
-    <a href="#" class="text-info" data-bs-toggle="modal" data-bs-target="#mentionsLegales">
-      Mentions légales
-    </a>
-  </p>
+        <!-- Volleyball -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card h-100 shadow-sm">
+            <img src="img/volleyball1.png" class="card-img-top hobby-img" alt="Volleyball">
+            <div class="card-body">
+              <h5 class="card-title">Volleyball</h5>
+              <p class="card-text">Sport collectif que je pratique pour le plaisir.</p>
+              <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#hobbyVolley">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="hobbyVolley">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Volleyball</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div id="carouselVolley" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/volleyball1.png" class="d-block w-100 carousel-img" alt="Match">
+                  <div class="carousel-caption">
+                    <h5>Match</h5>
+                    <p>Participation à des tournois.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/volleyball2.png" class="d-block w-100 carousel-img" alt="Entraînement">
+                  <div class="carousel-caption">
+                    <h5>Entraînement</h5>
+                    <p>Pratique régulière en club.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/volleyball3.jpeg" class="d-block w-100 carousel-img" alt="Équipe">
+                  <div class="carousel-caption">
+                    <h5>Équipe</h5>
+                    <p>Moment d’équipe et tournoi interne.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/volleyball4.jpg" class="d-block w-100 carousel-img" alt="Tournoi">
+                  <div class="carousel-caption">
+                    <h5>Tournoi</h5>
+                    <p>Tournoi interne et convivialité.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselVolley" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselVolley" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
 
-  <!-- Icônes réseaux sociaux avec tooltips -->
-  <div class="mt-3">
-    <a href="https://linkedin.com" class="text-light mx-2" data-bs-toggle="tooltip" title="LinkedIn">
-      <i class="bi bi-linkedin fs-3"></i>
-    </a>
-    <a href="https://github.com" class="text-light mx-2" data-bs-toggle="tooltip" title="GitHub">
-      <i class="bi bi-github fs-3"></i>
-    </a>
-    <a href="mailto:mnsteja@gmail.com" class="text-light mx-2" data-bs-toggle="tooltip" title="Email">
-      <i class="bi bi-envelope-fill fs-3"></i>
-    </a>
-  </div>
-</footer>
+        <!-- Jeux Vidéo -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card h-100 shadow-sm">
+            <img src="img/jeuxvideo1.jpg" class="card-img-top hobby-img" alt="Jeux Vidéo">
+            <div class="card-body">
+              <h5 class="card-title">Jeux Vidéo</h5>
+              <p class="card-text">Un univers virtuel qui stimule ma créativité.</p>
+              <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#hobbyJeux">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="hobbyJeux">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Jeux Vidéo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div id="carouselJeux" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/jeuxvideo1.jpg" class="d-block w-100 carousel-img" alt="Action">
+                  <div class="carousel-caption">
+                    <h5>Action</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/jeuxvideo2.jpg" class="d-block w-100 carousel-img" alt="Stratégie">
+                  <div class="carousel-caption">
+                    <h5>Stratégie</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/jeuxvideo3.jpg" class="d-block w-100 carousel-img" alt="Multijoueur">
+                  <div class="carousel-caption">
+                    <h5>Multijoueur</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/jeuxvideo4.jpg" class="d-block w-100 carousel-img" alt="Compétition">
+                  <div class="carousel-caption">
+                    <h5>Compétition</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselJeux" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselJeux" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
 
-<!-- Modal Mentions légales -->
-<div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="mentionsLegalesLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      
-      <div class="modal-header">
-        <h5 class="modal-title" id="mentionsLegalesLabel">Mentions légales</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+        <!-- Musique -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card h-100 shadow-sm">
+            <img src="img/musique1.jpg" class="card-img-top hobby-img" alt="Musique">
+            <div class="card-body">
+              <h5 class="card-title">Musique</h5>
+              <p class="card-text">Fan du groupe Imagine Dragons 🎶</p>
+              <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#hobbyMusique">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="hobbyMusique">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Musique</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div id="carouselMusique" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/musique1.jpg" class="d-block w-100 carousel-img" alt="Concert">
+                  <div class="carousel-caption">
+                    <h5>Concert</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/musique2.jpg" class="d-block w-100 carousel-img" alt="Studio">
+                  <div class="carousel-caption">
+                    <h5>Studio</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/musique3.jpg" class="d-block w-100 carousel-img" alt="Écoute">
+                  <div class="carousel-caption">
+                    <h5>Écoute</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/musique4.jpg" class="d-block w-100 carousel-img" alt="Répétition">
+                  <div class="carousel-caption">
+                    <h5>Répétition</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselMusique"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselMusique"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marvel -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card h-100 shadow-sm">
+            <img src="img/marvel1.png" class="card-img-top hobby-img" alt="Marvel">
+            <div class="card-body">
+              <h5 class="card-title">Marvel</h5>
+              <p class="card-text">Univers cinématographique que j’adore.</p>
+              <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#hobbyMarvel">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="hobbyMarvel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Marvel</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div id="carouselMarvel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/marvel1.png" class="d-block w-100 carousel-img" alt="Iron Man">
+                  <div class="carousel-caption">
+                    <h5>Iron Man</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/marvel2.jpg" class="d-block w-100 carousel-img" alt="Avengers">
+                  <div class="carousel-caption">
+                    <h5>Avengers</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/marvel3.jpg" class="d-block w-100 carousel-img" alt="Thor">
+                  <div class="carousel-caption">
+                    <h5>Thor</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/marvel4.jpg" class="d-block w-100 carousel-img" alt="Hulk">
+                  <div class="carousel-caption">
+                    <h5>Hulk</h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselMarvel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselMarvel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
       </div>
-      
-      <div class="modal-body">
-        <p>
-          Ceci est un exemple de mentions légales.  
-          Vous pouvez remplacer ce texte par vos vraies informations légales :
-        </p>
-        <ul>
-          <li><strong>Éditeur :</strong> John Doe</li>
-          <li><strong>Hébergement :</strong> OVH</li>
-          <li><strong>Contact :</strong> contact@mail.com</li>
-        </ul>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. 
-          Proin a justo in urna luctus commodo.
-        </p>
-      </div>
+    </div>
+  </section>
 
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-      </div>
 
+
+
+  <!-- ====== SECTION 4 : CONTACT ====== -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-0">Un projet de création web ?</h2>
+      <h3 class="fw-light fs-5">Allons en discuter autour d'un café</h3>
+
+      <div class="row gy-4 mt-4">
+        <!-- Image de la tasse de café -->
+        <div class="col-12 col-md-5 text-center">
+          <img src="img/grab-a-coffee.jpg" alt="Image d'une tasse de café" class="img-fluid rounded shadow-sm">
+        </div>
+
+        <!-- Formulaire de contact -->
+        <div class="col-12 offset-md-1 col-md-6">
+          <form class="row">
+            <div class="col-6 my-2">
+              <label for="firstname" class="form-label">Prénom</label>
+              <input name="firstname" type="text" class="form-control" id="firstname">
+            </div>
+            <div class="col-6 my-2">
+              <label for="name" class="form-label">Nom</label>
+              <input name="name" type="text" class="form-control" id="name">
+            </div>
+            <div class="col-12 my-2">
+              <label for="email" class="form-label">Email address</label>
+              <input name="email" type="email" class="form-control" id="email">
+            </div>
+            <div class="col-12 my-2">
+              <label for="message" class="form-label">Message</label>
+              <textarea name="message" class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <div class="col-12 my-2">
+              <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Lien Mentions légales -->
+  <footer class="text-center py-4 bg-dark text-light">
+    <p>
+      © 2025 Mon Portfolio -
+      <a href="#" class="text-info" data-bs-toggle="modal" data-bs-target="#mentionsLegales">
+        Mentions légales
+      </a>
+    </p>
+
+    <!-- Icônes réseaux sociaux avec tooltips -->
+    <div class="mt-3">
+      <a href="https://linkedin.com" class="text-light mx-2" data-bs-toggle="tooltip" title="LinkedIn">
+        <i class="bi bi-linkedin fs-3"></i>
+      </a>
+      <a href="https://github.com" class="text-light mx-2" data-bs-toggle="tooltip" title="GitHub">
+        <i class="bi bi-github fs-3"></i>
+      </a>
+      <a href="mailto:mnsteja@gmail.com" class="text-light mx-2" data-bs-toggle="tooltip" title="Email">
+        <i class="bi bi-envelope-fill fs-3"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Modal Mentions légales -->
+  <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="mentionsLegalesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title" id="mentionsLegalesLabel">Mentions légales</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+        </div>
+
+        <div class="modal-body">
+          <p>
+            Ceci est un exemple de mentions légales.
+            Vous pouvez remplacer ce texte par vos vraies informations légales :
+          </p>
+          <ul>
+            <li><strong>Éditeur :</strong> John Doe</li>
+            <li><strong>Hébergement :</strong> OVH</li>
+            <li><strong>Contact :</strong> contact@mail.com</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+            Proin a justo in urna luctus commodo.
+          </p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        </div>
+
+      </div>
     </div>
   </div>
-</div>
 
-<!-- Script Tooltips Bootstrap -->
-<script>
-  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-  })
-</script>
-
+  <!-- Script Tooltips Bootstrap -->
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
